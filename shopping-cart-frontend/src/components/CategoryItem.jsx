@@ -8,7 +8,7 @@ const CategoryItem = ({item}) => {
 return (
     <div className='categoryCard'>
         <div className='categoryCardImageContainer'>
-            <img src={item.imageUrl} className = 'categoryCardImage' />
+            <img src={item.imageUrl} className = 'categoryCardImage' alt={item.name}/>
         </div>
         <div className='categoryCardInfo'>
             <p className='categoryCardName'>{item.name}</p>

@@ -29,7 +29,7 @@ const Header = () => {
             </section>
         <section className='navbar'>
             <div className='logo'>
-                <img src={logo} />
+                <img src={logo} alt='SabkaBazaar Logo'/>
             </div>
             <nav>
                 <ul>
@@ -38,7 +38,7 @@ const Header = () => {
                 </ul>
             </nav>
             <div className='cart' onClick={cartToggleHandler}>
-                <img src={cartIcon} />
+                <img src={cartIcon} alt='cart-icon'/>
                 <span style={{color:'rgb(234, 70, 124)', fontWeight:'bold'}}>   {cartCount} Items</span>
             </div>
         </section>
